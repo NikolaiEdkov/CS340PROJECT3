@@ -1,10 +1,6 @@
 #!/bin/bash
 
-# run the coverage of the tests 
-
-# NOTE: All tests should be in the folder avl-tests
-
-# activate the venv
+# run the coverage of the tests for the pngs
 
 source .venv/bin/activate
 

@@ -7,8 +7,8 @@ pngtest.o: pngtest.c /usr/include/stdc-predef.h /usr/include/stdio.h \
  /usr/include/x86_64-linux-gnu/bits/long-double.h \
  /usr/include/x86_64-linux-gnu/gnu/stubs.h \
  /usr/include/x86_64-linux-gnu/gnu/stubs-64.h \
- /usr/lib/gcc/x86_64-linux-gnu/11/include/stddef.h \
- /usr/lib/gcc/x86_64-linux-gnu/11/include/stdarg.h \
+ /usr/lib/gcc/x86_64-linux-gnu/13/include/stddef.h \
+ /usr/lib/gcc/x86_64-linux-gnu/13/include/stdarg.h \
  /usr/include/x86_64-linux-gnu/bits/types.h \
  /usr/include/x86_64-linux-gnu/bits/typesizes.h \
  /usr/include/x86_64-linux-gnu/bits/time64.h \
@@ -21,14 +21,15 @@ pngtest.o: pngtest.c /usr/include/stdc-predef.h /usr/include/stdio.h \
  /usr/include/x86_64-linux-gnu/bits/stdio_lim.h \
  /usr/include/x86_64-linux-gnu/bits/floatn.h \
  /usr/include/x86_64-linux-gnu/bits/floatn-common.h \
+ /usr/include/x86_64-linux-gnu/bits/stdio2-decl.h \
  /usr/include/x86_64-linux-gnu/bits/stdio.h \
  /usr/include/x86_64-linux-gnu/bits/stdio2.h /usr/include/stdlib.h \
  /usr/include/x86_64-linux-gnu/bits/stdlib-bsearch.h \
  /usr/include/x86_64-linux-gnu/bits/stdlib-float.h \
  /usr/include/x86_64-linux-gnu/bits/stdlib.h /usr/include/string.h \
  /usr/include/x86_64-linux-gnu/bits/string_fortified.h png.h pnglibconf.h \
- pngconf.h /usr/lib/gcc/x86_64-linux-gnu/11/include/limits.h \
- /usr/lib/gcc/x86_64-linux-gnu/11/include/syslimits.h \
+ pngconf.h /usr/lib/gcc/x86_64-linux-gnu/13/include/limits.h \
+ /usr/lib/gcc/x86_64-linux-gnu/13/include/syslimits.h \
  /usr/include/limits.h /usr/include/x86_64-linux-gnu/bits/posix1_lim.h \
  /usr/include/x86_64-linux-gnu/bits/local_lim.h \
  /usr/include/linux/limits.h \
@@ -52,6 +53,7 @@ pngtest.o: pngtest.c /usr/include/stdc-predef.h /usr/include/stdio.h \
  /usr/include/x86_64-linux-gnu/bits/posix_opt.h \
  /usr/include/x86_64-linux-gnu/bits/confname.h \
  /usr/include/x86_64-linux-gnu/bits/unistd.h \
+ /usr/include/x86_64-linux-gnu/bits/unistd-decl.h \
  /usr/include/x86_64-linux-gnu/bits/unistd_ext.h
 /usr/include/stdc-predef.h:
 /usr/include/stdio.h:
@@ -64,8 +66,8 @@ pngtest.o: pngtest.c /usr/include/stdc-predef.h /usr/include/stdio.h \
 /usr/include/x86_64-linux-gnu/bits/long-double.h:
 /usr/include/x86_64-linux-gnu/gnu/stubs.h:
 /usr/include/x86_64-linux-gnu/gnu/stubs-64.h:
-/usr/lib/gcc/x86_64-linux-gnu/11/include/stddef.h:
-/usr/lib/gcc/x86_64-linux-gnu/11/include/stdarg.h:
+/usr/lib/gcc/x86_64-linux-gnu/13/include/stddef.h:
+/usr/lib/gcc/x86_64-linux-gnu/13/include/stdarg.h:
 /usr/include/x86_64-linux-gnu/bits/types.h:
 /usr/include/x86_64-linux-gnu/bits/typesizes.h:
 /usr/include/x86_64-linux-gnu/bits/time64.h:
@@ -78,6 +80,7 @@ pngtest.o: pngtest.c /usr/include/stdc-predef.h /usr/include/stdio.h \
 /usr/include/x86_64-linux-gnu/bits/stdio_lim.h:
 /usr/include/x86_64-linux-gnu/bits/floatn.h:
 /usr/include/x86_64-linux-gnu/bits/floatn-common.h:
+/usr/include/x86_64-linux-gnu/bits/stdio2-decl.h:
 /usr/include/x86_64-linux-gnu/bits/stdio.h:
 /usr/include/x86_64-linux-gnu/bits/stdio2.h:
 /usr/include/stdlib.h:
@@ -89,8 +92,8 @@ pngtest.o: pngtest.c /usr/include/stdc-predef.h /usr/include/stdio.h \
 png.h:
 pnglibconf.h:
 pngconf.h:
-/usr/lib/gcc/x86_64-linux-gnu/11/include/limits.h:
-/usr/lib/gcc/x86_64-linux-gnu/11/include/syslimits.h:
+/usr/lib/gcc/x86_64-linux-gnu/13/include/limits.h:
+/usr/lib/gcc/x86_64-linux-gnu/13/include/syslimits.h:
 /usr/include/limits.h:
 /usr/include/x86_64-linux-gnu/bits/posix1_lim.h:
 /usr/include/x86_64-linux-gnu/bits/local_lim.h:
@@ -120,4 +123,5 @@ pngconf.h:
 /usr/include/x86_64-linux-gnu/bits/posix_opt.h:
 /usr/include/x86_64-linux-gnu/bits/confname.h:
 /usr/include/x86_64-linux-gnu/bits/unistd.h:
+/usr/include/x86_64-linux-gnu/bits/unistd-decl.h:
 /usr/include/x86_64-linux-gnu/bits/unistd_ext.h:

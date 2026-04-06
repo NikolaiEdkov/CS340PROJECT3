@@ -8,11 +8,11 @@ contrib/libtests/timepng.o: contrib/libtests/timepng.c \
  /usr/include/x86_64-linux-gnu/bits/long-double.h \
  /usr/include/x86_64-linux-gnu/gnu/stubs.h \
  /usr/include/x86_64-linux-gnu/gnu/stubs-64.h \
- /usr/lib/gcc/x86_64-linux-gnu/11/include/stddef.h \
+ /usr/lib/gcc/x86_64-linux-gnu/13/include/stddef.h \
  /usr/include/x86_64-linux-gnu/bits/floatn.h \
  /usr/include/x86_64-linux-gnu/bits/floatn-common.h \
  /usr/include/x86_64-linux-gnu/bits/stdlib-float.h /usr/include/stdio.h \
- /usr/lib/gcc/x86_64-linux-gnu/11/include/stdarg.h \
+ /usr/lib/gcc/x86_64-linux-gnu/13/include/stdarg.h \
  /usr/include/x86_64-linux-gnu/bits/types.h \
  /usr/include/x86_64-linux-gnu/bits/typesizes.h \
  /usr/include/x86_64-linux-gnu/bits/time64.h \
@@ -26,8 +26,8 @@ contrib/libtests/timepng.o: contrib/libtests/timepng.c \
  /usr/include/errno.h /usr/include/x86_64-linux-gnu/bits/errno.h \
  /usr/include/linux/errno.h /usr/include/x86_64-linux-gnu/asm/errno.h \
  /usr/include/asm-generic/errno.h /usr/include/asm-generic/errno-base.h \
- /usr/lib/gcc/x86_64-linux-gnu/11/include/limits.h \
- /usr/lib/gcc/x86_64-linux-gnu/11/include/syslimits.h \
+ /usr/lib/gcc/x86_64-linux-gnu/13/include/limits.h \
+ /usr/lib/gcc/x86_64-linux-gnu/13/include/syslimits.h \
  /usr/include/limits.h /usr/include/x86_64-linux-gnu/bits/posix1_lim.h \
  /usr/include/x86_64-linux-gnu/bits/local_lim.h \
  /usr/include/linux/limits.h \
@@ -60,12 +60,12 @@ contrib/libtests/timepng.o: contrib/libtests/timepng.c \
 /usr/include/x86_64-linux-gnu/bits/long-double.h:
 /usr/include/x86_64-linux-gnu/gnu/stubs.h:
 /usr/include/x86_64-linux-gnu/gnu/stubs-64.h:
-/usr/lib/gcc/x86_64-linux-gnu/11/include/stddef.h:
+/usr/lib/gcc/x86_64-linux-gnu/13/include/stddef.h:
 /usr/include/x86_64-linux-gnu/bits/floatn.h:
 /usr/include/x86_64-linux-gnu/bits/floatn-common.h:
 /usr/include/x86_64-linux-gnu/bits/stdlib-float.h:
 /usr/include/stdio.h:
-/usr/lib/gcc/x86_64-linux-gnu/11/include/stdarg.h:
+/usr/lib/gcc/x86_64-linux-gnu/13/include/stdarg.h:
 /usr/include/x86_64-linux-gnu/bits/types.h:
 /usr/include/x86_64-linux-gnu/bits/typesizes.h:
 /usr/include/x86_64-linux-gnu/bits/time64.h:
@@ -83,8 +83,8 @@ contrib/libtests/timepng.o: contrib/libtests/timepng.c \
 /usr/include/x86_64-linux-gnu/asm/errno.h:
 /usr/include/asm-generic/errno.h:
 /usr/include/asm-generic/errno-base.h:
-/usr/lib/gcc/x86_64-linux-gnu/11/include/limits.h:
-/usr/lib/gcc/x86_64-linux-gnu/11/include/syslimits.h:
+/usr/lib/gcc/x86_64-linux-gnu/13/include/limits.h:
+/usr/lib/gcc/x86_64-linux-gnu/13/include/syslimits.h:
 /usr/include/limits.h:
 /usr/include/x86_64-linux-gnu/bits/posix1_lim.h:
 /usr/include/x86_64-linux-gnu/bits/local_lim.h:

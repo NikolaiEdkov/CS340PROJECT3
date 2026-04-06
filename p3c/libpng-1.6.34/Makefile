@@ -529,22 +529,22 @@ distcleancheck_listfiles = find . -type f -print
 
 #distribute headers in /usr/include/libpng/*
 pkgincludedir = $(includedir)/$(PNGLIB_BASENAME)
-ACLOCAL = ${SHELL} /home/nikolai/projects/CS340Project3/p3c/libpng-1.6.34/missing aclocal-1.15
+ACLOCAL = ${SHELL} /home/edkovnikolai/git/CS340PROJECT3/p3c/libpng-1.6.34/missing aclocal-1.15
 AMTAR = $${TAR-tar}
 AM_DEFAULT_VERBOSITY = 1
 AR = ar
 AS = as
-AUTOCONF = ${SHELL} /home/nikolai/projects/CS340Project3/p3c/libpng-1.6.34/missing autoconf
-AUTOHEADER = ${SHELL} /home/nikolai/projects/CS340Project3/p3c/libpng-1.6.34/missing autoheader
-AUTOMAKE = ${SHELL} /home/nikolai/projects/CS340Project3/p3c/libpng-1.6.34/missing automake-1.15
+AUTOCONF = ${SHELL} /home/edkovnikolai/git/CS340PROJECT3/p3c/libpng-1.6.34/missing autoconf
+AUTOHEADER = ${SHELL} /home/edkovnikolai/git/CS340PROJECT3/p3c/libpng-1.6.34/missing autoheader
+AUTOMAKE = ${SHELL} /home/edkovnikolai/git/CS340PROJECT3/p3c/libpng-1.6.34/missing automake-1.15
 AWK = gawk
-CC = /home/nikolai/projects/CS340Project3/p3c/afl-2.52b/afl-gcc
-CCAS = /home/nikolai/projects/CS340Project3/p3c/afl-2.52b/afl-gcc
+CC = /home/edkovnikolai/git/CS340PROJECT3/p3c/afl-2.52b/afl-gcc
+CCAS = /home/edkovnikolai/git/CS340PROJECT3/p3c/afl-2.52b/afl-gcc
 CCASDEPMODE = depmode=gcc3
 CCASFLAGS = -static
 CCDEPMODE = depmode=gcc3
 CFLAGS = -static
-CPP = /home/nikolai/projects/CS340Project3/p3c/afl-2.52b/afl-gcc -E
+CPP = /home/edkovnikolai/git/CS340PROJECT3/p3c/afl-2.52b/afl-gcc -E
 CPPFLAGS = 
 CYGPATH_W = echo
 DEFS = -DHAVE_CONFIG_H
@@ -555,7 +555,7 @@ DEPDIR = .deps
 # checks input tokens for validity - effectively it performs part of the ANSI-C
 # parsing - and therefore fails with the .df files.  configure.ac has special
 # checks for this and sets DFNCPP appropriately.
-DFNCPP = /home/nikolai/projects/CS340Project3/p3c/afl-2.52b/afl-gcc -E
+DFNCPP = /home/edkovnikolai/git/CS340PROJECT3/p3c/afl-2.52b/afl-gcc -E
 DLLTOOL = false
 DSYMUTIL = 
 DUMPBIN = 
@@ -581,7 +581,7 @@ LN_S = ln -s
 LTLIBOBJS = 
 LT_SYS_LIBRARY_PATH = 
 MAINT = #
-MAKEINFO = ${SHELL} /home/nikolai/projects/CS340Project3/p3c/libpng-1.6.34/missing makeinfo
+MAKEINFO = ${SHELL} /home/edkovnikolai/git/CS340PROJECT3/p3c/libpng-1.6.34/missing makeinfo
 MANIFEST_TOOL = :
 MKDIR_P = /usr/bin/mkdir -p
 NM = /usr/bin/nm -B
@@ -616,12 +616,12 @@ SHELL = /bin/bash
 STRIP = strip
 SYMBOL_PREFIX = 
 VERSION = 1.6.34
-abs_builddir = /home/nikolai/projects/CS340Project3/p3c/libpng-1.6.34
-abs_srcdir = /home/nikolai/projects/CS340Project3/p3c/libpng-1.6.34
-abs_top_builddir = /home/nikolai/projects/CS340Project3/p3c/libpng-1.6.34
-abs_top_srcdir = /home/nikolai/projects/CS340Project3/p3c/libpng-1.6.34
+abs_builddir = /home/edkovnikolai/git/CS340PROJECT3/p3c/libpng-1.6.34
+abs_srcdir = /home/edkovnikolai/git/CS340PROJECT3/p3c/libpng-1.6.34
+abs_top_builddir = /home/edkovnikolai/git/CS340PROJECT3/p3c/libpng-1.6.34
+abs_top_srcdir = /home/edkovnikolai/git/CS340PROJECT3/p3c/libpng-1.6.34
 ac_ct_AR = ar
-ac_ct_CC = /home/nikolai/projects/CS340Project3/p3c/afl-2.52b/afl-gcc
+ac_ct_CC = /home/edkovnikolai/git/CS340PROJECT3/p3c/afl-2.52b/afl-gcc
 ac_ct_DUMPBIN = 
 am__include = include
 am__leading_dot = .
@@ -651,7 +651,7 @@ host_vendor = unknown
 htmldir = ${docdir}
 includedir = ${prefix}/include
 infodir = ${datarootdir}/info
-install_sh = ${SHELL} /home/nikolai/projects/CS340Project3/p3c/libpng-1.6.34/install-sh
+install_sh = ${SHELL} /home/edkovnikolai/git/CS340PROJECT3/p3c/libpng-1.6.34/install-sh
 libdir = ${exec_prefix}/lib
 libexecdir = ${exec_prefix}/libexec
 localedir = ${datarootdir}/locale

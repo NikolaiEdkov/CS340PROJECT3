@@ -1,4 +1,4 @@
-#!/home/nikolai/projects/CS340Project3/.venv/bin/python3
+#!/home/edkovnikolai/git/CS340PROJECT3/.venv/bin/python3
 import sys
 from gcovr.__main__ import main
 if __name__ == '__main__':
