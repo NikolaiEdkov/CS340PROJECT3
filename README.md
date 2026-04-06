@@ -20,10 +20,15 @@ An error raised when trying to run `gcovr -s -e contrib -e intel -e mips
 -e powerpc -r .` Fixed error with addition of
 `--gcov-ignore-errors=source_not_found` flag (offered by the error text)
 
-### Findings: Initially, I was trying to use pngs I manually find from
-the web. It wasn't giving a spectacular result since code coverage was
-about 20%. After, I started using github repositories with lot of pngs
-to choose from (see sources for the repositories in the [Sources](#sources) section)
+### Findings: 
+
+Initially, I was trying to use pngs I manually find from the web. It
+wasn't giving a spectacular result since code coverage was about 20%.
+After, I started using github repositories with lot of pngs to choose
+from (see sources for the repositories in the [Sources](#sources)
+section). Then I created a specific folder that gets 50 random images
+from **ALL** downloaded pngs into a specific folder, and only then runs
+a coverage testing. This way I managed to reach 36.1% line coverage.
 
 
 ## Project 3C:
@@ -44,7 +49,8 @@ the remote Google Cloud VM.
 
 ### Findings:
 
-This project took most time to do. There
+This project took most time to do. After several attempts, it took me
+2.5 hours to run 558 paths. 
 
 
 
@@ -63,3 +69,7 @@ websites (usually they are big and have some "human" sense)
 
 - https://github.com/lunapaint/pngsuite - another repository with lots
 of random images, mostly random ""
+
+- https://code.google.com/archive/p/imagetestsuite/source - special
+image test suite for code coverage (provides 50% coverage libpng,
+according to source)
