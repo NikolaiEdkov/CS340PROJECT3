@@ -38,9 +38,11 @@ a coverage testing. This way I managed to reach 36.1% line coverage.
 via singing as a root `sudo su` and running `echo core
 >/proc/sys/kernel/core_pattern` we are able to make afl run. 
 
-Some tests take more than 1000 ms to run (afl). Delete them. Later, I
-deleted all the pngs that were bigger than 200px by 200px, since code
-was running way too slowly (afl stuck on ~250 paths after several hours)
+50 testing pictures were taken from the same dataset that part 3B was
+running. Some tests take more than 1000 ms to run (afl). I Deleted them.
+Later, I deleted all the pngs that were bigger than 200px by 200px even
+if they passed the time limit, since code was running way too slowly
+(afl stuck on ~250 paths after several hours)
 
 There were problems that appeared because I didn't manage to see
 instructions clearly or because of minor mispellings (e.g. source path),
@@ -50,7 +52,47 @@ the remote Google Cloud VM.
 ### Findings:
 
 This project took most time to do. After several attempts, it took me
-2.5 hours to run 558 paths. 
+2.5 hours to run 558 paths.
+
+There is an important difference between manual coverage and fuzz
+coverage. In manual coverage, the test dataset is fixed (not changed)
+and coverage program simply runs the program with the specified input,
+checking what code lines and branches were reached.
+
+In AFL, coverage testing software (AFL) checks what lines and code paths
+have been executed, then changes the bytes of the input either by
+slicing, bit flipping, and addition. If the changed input caused to find
+new code paths (activate new code blocks), then it is saved and mutated
+further. This allows to get the paths that were thought to be
+unreachable by the developers and automate testing set development,
+requiring less test data to be collected for similar result.
+ 
+
+As we can see, total paths found increase step-wise, and it takes more
+and more time for each new step to occur (see [figure 1](#figure-1)).
+This is most likely explainable by the fact that AFL randomly finds a
+new "kind" of png picture, that causes program to execute many new code
+blocks. This png picture is then mutated so more and more paths are
+being discovered for this "kind" of picture, until all the possible
+paths are covered with this picture type.
+
+<figure id="figure-1">
+  <img src="total-paths-passed-evolution.png" alt="total-paths-passed">
+  <figcaption>Figure 1: Total paths found over time code ran.</figcaption>
+</figure>
+
+We can also look at map size vs total paths plot (see [figure
+2](#figure-2)). Map size basically represents the number of branches
+attended (since map basically stores what brancehs attended). Since
+relationship is not linear and is getting "flatter and flatter" with
+higher number of total paths, it is a sign that map is saturated and
+colliding tuple (path) rate is too high. Therefore, bigger than 64kb SHM
+region should be allocated.
+
+<figure id="figure-2">
+  <img src="map-size-evolution.png" alt="map-size evolution">
+  <figcaption>Figure 2: Map size evolution over total paths found.</figcaption>
+</figure>
 
 
 
